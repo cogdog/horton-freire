@@ -5,16 +5,14 @@ color:#fff;
 
 
 #container {
-	width: 480px;
+	width: 70%;
 	margin: 20px auto;
 	background: #fc4e2a;
-	
-	height: 560px;
 	overflow:hidden;
 }
 
 #footer {
-	width: 60%;
+	width: 70%;
 	margin: 20px auto 10px;
 	padding: 0.5em 1em;
 	background: #fff;
@@ -23,10 +21,10 @@ color:#fff;
 
 
 #title {
-	height: 160px;
 	padding: 1em;
 	background-color: #fc4e2a;
 	position: relative;
+	height:200%;
 }
 
 h1 { font-size: 1.6em; margin-top:0;}
@@ -40,31 +38,36 @@ p { margin-top:0; color:black;}
 
 
 #writing {
-	padding: 10px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    padding: 10px;
 	font-family: 'Neucha', cursive;
-	font-size: 1em;
-	line-height: 1.2em;
+	font-size: 1.3em;
+    line-height: 1.4em;
 	font-weight: bold;
 	color: #bbb;
     -ms-transform: rotate(2.5deg); /* IE 9 */
     -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */
     transform: rotate(2.5deg);
-
 }
 
-
 .book {
+  color: #fff;
+  margin: 120px 0 0;
+  padding: 20% 20px;
+  text-align: center;
   background: #000;
   position: relative;
   z-index: 1;
-  height:130px;
+
 }
 
 .book:before {
   background: inherit;
   content: '';
   display: block;
-  height: 400px;
+  height: 200%;
  
   left: 0;
   position: absolute;
@@ -80,13 +83,6 @@ p { margin-top:0; color:black;}
           transform-origin: 100%;
 }
 
-.book {
-  color: #fff;
-  font-family: 'Fira Sans', sans-serif;
-  margin: 50px 0;
-  padding: 20% 20px;
-  text-align: center;
-}
 
 #myles {
 	position: absolute;
@@ -94,6 +90,7 @@ p { margin-top:0; color:black;}
     bottom: 0;
     z-index: 3;
     cursor:pointer;
+    height:200%
 }
 
 #paulo {
@@ -102,6 +99,7 @@ p { margin-top:0; color:black;}
     bottom: 0;
     z-index: 3;
     cursor:pointer;
+    height:200%
 }
 
 
