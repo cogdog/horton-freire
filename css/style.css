@@ -5,6 +5,8 @@ color:#fff;
 
 
 #container {
+	min-width:480px;
+	max-width:1000px;
 	width: 70%;
 	margin: 20px auto;
 	background: #fc4e2a;

@@ -55,7 +55,7 @@ $(document).ready(function (e) {
 
 			if ( $("#paulo").hasClass('visible')) {
 				// move Paulo off stage
-				$("#paulo").animate({"right":"1000px"}, "slow").removeClass('visible');
+				$("#paulo").animate({"right":"2000px"}, "slow").removeClass('visible');
 				
 				// update the text with, and make room for Myles next to the text
 				getquotes();
@@ -77,7 +77,7 @@ $(document).ready(function (e) {
  			
  			if ( $("#myles").hasClass('visible')) {
  				// move Myles off stage
-				$("#myles").animate({"left":"1000px"}, "slow").removeClass('visible');
+				$("#myles").animate({"left":"2000px"}, "slow").removeClass('visible');
 				
 				// update the text with, and make room for Paulo next to the text
 				getquotes();
