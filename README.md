@@ -1,6 +1,6 @@
 # We Make The Read by Annotating
 
-![Dynamic Cover](https://github.com/cogdog/horton-freire/blob/master/imgages/cover.jpg "a new book cover")
+![Dynamic Cover](https://github.com/cogdog/horton-freire/blob/master/images/cover.jpg "a new book cover")
 
 Dynamic display of annotated quotes from the [Hypothes.is](http://hypothes.is) annotation activity of *We Make the Road By Walking*. See it in action at https://cogdog.github.io/horton-freire/
 
