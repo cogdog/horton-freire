@@ -22,7 +22,7 @@ function get_gs_data( url ) {
     return (info); 
 }
 
-	// load the data from he remote spreadsheet
+	// load the data from the remote spreadsheet
     var allquotes = get_gs_data('https://spreadsheets.google.com/feeds/list/15yb4A2JBWHUscoEOGwRIlJh4DHccI9OnaQ1kzWfvghc/1/public/values?alt=json');
 
 	// fetch a given number of quotes from the array
@@ -38,6 +38,9 @@ function get_gs_data( url ) {
  		
  		// update the display content	
 		$("#writing").text(str).fadeIn("slow");
+		
+		$( "#qcount" ).html('From ' + allquotes.length + ' quotes from #HortonFreire Annotators');
+
 	} 
 
   
@@ -93,5 +96,8 @@ $(document).ready(function (e) {
 				$("#writing").css("padding-right", "5%");
 			}	
  		}
-	}); 		
+ 		
+	}); 
+	
+		
 });
